@@ -1,0 +1,56 @@
+#signinForm{
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: 30%;
+}
+#signinForm .ccs{
+    margin-top: .8rem;
+}
+.heading h1{
+    font-size: 1rem;
+}
+.heading small{
+    font-size: .5rem;
+}
+.email input{
+    width: 55%;
+    height: 1.8rem;
+    font-size: .6rem;
+    border-radius: .2rem;
+}
+.passward input{
+    width: 55%;
+    height: 1.8rem;
+    font-size: .6rem;
+    border-radius: .2rem;
+}
+.loginbtn input{
+    width: 55%;
+    height: 1.8rem;
+    font-size: .6rem;
+    background: rgb(92, 92, 120);
+    color: rgb(27, 16, 16);
+    border-radius: .2rem;
+}
+.loginbtn input:hover{
+    background: white;
+    color: red;
+}
+
+
+
+/* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
+@media screen and (max-width: 1024px){
+    #signinForm{
+        margin-top: 4rem;
+        margin-left: 25%;
+    }
+}
+
+
+/* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
+@media screen and (max-width: 700px){
+    #signinForm{
+        margin-left: 0rem;
+    }
+}

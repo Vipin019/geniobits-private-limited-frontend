@@ -1,0 +1,27 @@
+#navbar{
+    height: 3rem;
+    width: 100%;
+    background-color: #f7681c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    font-size: .5rem;
+    margin-left: 1rem;
+}
+.userPfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9834c;
+    border-radius: 2rem;
+    padding: .1rem;
+    padding-top: .3rem;
+    margin-right: 1rem;
+}
+.userPfile__img img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+}
